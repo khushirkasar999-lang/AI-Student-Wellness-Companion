@@ -1,0 +1,42 @@
+export const RECOMMENDATION_RULES = [
+  {
+    ruleKey: "sleep-risk",
+    category: "Sleep",
+    title: "Create a consistent sleep schedule",
+    description: "Set a fixed bedtime and wake-up time to reduce sleep stress.",
+    estimatedMinutes: 10,
+    priority: "high",
+  },
+  {
+    ruleKey: "academic-overload",
+    category: "Study Planning",
+    title: "Break your workload into 3 tasks",
+    description: "Prioritize the three most important tasks before starting larger assignments.",
+    estimatedMinutes: 15,
+    priority: "normal",
+  },
+  {
+    ruleKey: "deadline-pressure",
+    category: "Time Management",
+    title: "Create a deadline plan",
+    description: "List deadlines and divide work into smaller milestones.",
+    estimatedMinutes: 20,
+    priority: "high",
+  },
+  {
+    ruleKey: "activity-low",
+    category: "Physical Activity",
+    title: "Take a 10-minute walk",
+    description: "Short movement breaks can improve energy and reduce stress.",
+    estimatedMinutes: 10,
+    priority: "normal",
+  },
+  {
+    ruleKey: "social-low",
+    category: "Social Connection",
+    title: "Reach out to a trusted person",
+    description: "A brief check-in with someone you trust can reduce isolation.",
+    estimatedMinutes: 15,
+    priority: "normal",
+  },
+];
